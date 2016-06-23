@@ -115,6 +115,9 @@ select.form-input {
     background: url(/assets/images/arrow.svg) no-repeat right center;
     background-size: 29px;
 }
+select.form-input option {
+  color: #000;
+}
 .form-input[type="range"] {
     padding: 10px 0;
     border: none;

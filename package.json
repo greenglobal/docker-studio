@@ -1,14 +1,15 @@
 {
-  "name": "electron-quick-start",
+  "name": "docker-studio",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "build": "electron-packager . --all"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/ndaidong/docker-studio.git"
   },
   "keywords": [
     "Electron",
@@ -19,10 +20,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/ndaidong/docker-studio/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/ndaidong/docker-studio",
   "devDependencies": {
+    "electron-packager": "^7.0.4",
     "electron-prebuilt": "^1.2.0"
   }
 }
